@@ -121,13 +121,27 @@ $(document).ready(function(){
 	});
 });
 
+/* function regist(){
+	if(!$("#boardSj").val()){
+		alert("제목을 입력해주세요.");
+		$("#boardSj").focus();
+		return false;
+	}
+} */
+
 function regist(){
 	if(!$("#boardSj").val()){
 		alert("제목을 입력해주세요.");
 		$("#boardSj").focus();
 		return false;
 	}
+	else if(!$("#boardCn").val()){
+		alert("내용을 입력해주세요.");
+		$("#boardCn").focus();
+		return false;
+	}
 }
+
 </script>
 	
 
