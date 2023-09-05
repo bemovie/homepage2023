@@ -20,5 +20,14 @@ public interface MemberMapper {
 
 	//회원비밀번호업데이트
 	void passwordUpdate(MemberVO vo) throws Exception;
+
+	//회원목록
+	List<EgovMap> selectMberList(MemberVO vo) throws Exception;
+
+	//회원목록 수
+	int selectMberListCnt(MemberVO vo) throws Exception;
+	
+	//회원상세
+	EgovMap selectMber(MemberVO vo) throws Exception;
 	
 }
