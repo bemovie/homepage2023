@@ -95,7 +95,7 @@ public class NaverLoginServiceImpl extends EgovAbstractServiceImpl implements Na
 				.url(PROFILE_API_URL)
 				.method("GET", null)
 				.addHeader("Content-Type", "application/x-www-form-urlencoded")
-				.addHeader("Authorization", "Bearer" + oauthToken.getAccessToken())
+				.addHeader("Authorization", "Bearer " + oauthToken.getAccessToken())
 				.build();
 		Response response = client.newCall(request).execute();
 		

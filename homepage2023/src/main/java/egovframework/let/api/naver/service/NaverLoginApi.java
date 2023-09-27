@@ -15,7 +15,7 @@ public class NaverLoginApi extends DefaultApi20 {
 	
 	@Override
 	public String getAccessTokenEndpoint() {
-		return "https://nid.naver.com/oauth2.0/token?grant_type=authoriztion_code";
+		return "https://nid.naver.com/oauth2.0/token?grant_type=authorization_code";
 	}
 	
 	@Override
