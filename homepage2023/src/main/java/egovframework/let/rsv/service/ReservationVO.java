@@ -56,6 +56,7 @@ public class ReservationVO extends ComDefaultVO implements Serializable {
 	//최종수정자ID
 	private String lastUpdusrId;
 	
+	
 	//사용자ID
 	private String userId;
 	
